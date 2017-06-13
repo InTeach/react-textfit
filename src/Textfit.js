@@ -23,7 +23,8 @@ export default class TextFit extends React.Component {
     static propTypes = {
         children: PropTypes.oneOfType([
             PropTypes.string,
-            PropTypes.func
+            PropTypes.func,
+            PropTypes.array
         ]),
         text: PropTypes.string,
         min: PropTypes.number,
